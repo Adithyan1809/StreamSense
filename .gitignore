@@ -1,3 +1,4 @@
+```gitignore
 # Python
 __pycache__/
 *.py[cod]
@@ -23,30 +24,21 @@ rag_venv/
 .coverage
 htmlcov/
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
 
-# Generated local data
+# Generated local data and vector databases
 chroma/
 chroma_db/
+chroma_langchain_db/
 *.sqlite
 *.sqlite3
+
+# Ignore everything inside tests
+tests/
 
 # OS and editor files
 .DS_Store
 Thumbs.db
 .vscode/
-tests/test_rag.py
-rag_service.py
-tests/chroma_langchain_db/test2.ipynb
-tests/rag_service.ipynb
-chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/data_level0.bin
-chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/length.bin
-chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/link_lists.bin
-chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/header.bin
-.env
-.env
-.env
-
-# Ignore everything inside tests
-tests/
+```
