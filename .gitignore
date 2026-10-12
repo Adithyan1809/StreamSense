@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+rag_venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated local data
+chroma/
+chroma_db/
+*.sqlite
+*.sqlite3
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+tests/test_rag.py
+rag_service.py
+tests/chroma_langchain_db/test2.ipynb
+tests/rag_service.ipynb
+chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/data_level0.bin
+chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/length.bin
+chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/link_lists.bin
+chroma_langchain_db/f9ce5531-d5a0-482e-a377-7c0d7ebdd907/header.bin
+.env
+.env
+.env
+
+# Ignore everything inside tests
+tests/
